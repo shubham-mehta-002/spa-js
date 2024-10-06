@@ -165,3 +165,14 @@ function resetLoginState(){
 resetLoginState()
 
 
+
+
+// exposing functions
+window.MyRouter = {
+    renderContent,
+    addListeners,
+    findRouteBasedOnPath,
+    createRouter,
+    navigate,
+    checkLoginState 
+};

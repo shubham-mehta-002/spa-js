@@ -1,1 +1,0 @@
-(()=>{"use strict";const e=document.querySelector('button[data-btn-type="auth"]');e?.addEventListener("click",(()=>{localStorage.getItem("login")?(localStorage.removeItem("login"),e.innerText="Login"):(localStorage.setItem("login","true"),e.innerText="Logout")})),localStorage.removeItem("login")})();
